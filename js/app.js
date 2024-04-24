@@ -22,7 +22,8 @@ const showMovies = (data) => {
             <div class="overlay">
                 <div class="title">
                     <h2>${item.original_title}</h2>
-                    <span>${item.vote_average}</span>
+                    <!-- <span>${item.vote_average}</span> -->
+                    <span>${item.vote_average.toFixed(1)}</span>
                 </div>
                 <h2>Overview:</h2>
                 <p>
